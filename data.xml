@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<tests name="Python tests">
+    <test_difficulty name="easy">
+        <task name="1" question="Which library is responsible for the time?">
+            <answer text="localtime"/>
+            <answer text="clock"/>
+            <answer text="Time"/>
+            <answer text="time"/>
+            <correct_answer text="time"/>
+        </task>
+        <task name="2" question="How to get data from a user?">
+            <answer text="use method get()"/>
+            <answer text="use method giveMe()"/>
+            <answer text="use method read()"/>
+            <answer text="use method input()"/>
+            <correct_answer text="use method input()"/>
+        </task>
+        <task name="3" question="Which function outputs anything to the console?">
+            <answer text="write();"/>
+            <answer text="log();"/>
+            <answer text="out();"/>
+            <answer text="print();"/>
+            <correct_answer text="print();"/>
+        </task>
+        <task name="4" question="Where is the variable created correctly?">
+            <answer text="int num = 2"/>
+            <answer text="num = float(2)"/>
+            <answer text="var num = 2"/>
+            <answer text="num = omNomNom(2)"/>
+            <correct_answer text="num = float(2)"/>
+        </task>
+        <task name="5" question="How many libraries can you import into one project?">
+            <answer text="not more than you years old"/>
+            <answer text="not more than 23"/>
+            <answer text="unlimited quantity"/>
+            <answer text="not more than 10"/>
+            <correct_answer text="unlimited quantity"/>
+        </task>
+    </test_difficulty>
+    <test_difficulty name="medium">
+        <task name="1" question="What data type is immutable?">
+            <answer text="list"/>
+            <answer text="tuple"/>
+            <answer text="dict"/>
+            <answer text="set"/>
+            <correct_answer text="tuple"/>
+        </task>
+        <task name="2" question="Which function is not a higher order function?">
+            <answer text="reduce()"/>
+            <answer text="map()"/>
+            <answer text="int()"/>
+            <answer text="filter()"/>
+            <correct_answer text="int()"/>
+        </task>
+        <task name="3" question="What does binary write mode mean?">
+            <answer text="w"/>
+            <answer text="rw"/>
+            <answer text="brr/brr"/>
+            <answer text="wb"/>
+            <correct_answer text="wb"/>
+        </task>
+        <task name="4" question="What other statement does the 'try/except' block contain?">
+            <answer text="end"/>
+            <answer text="finally"/>
+            <answer text="fatality"/>
+            <answer text="close"/>
+            <correct_answer text="finally"/>
+        </task>
+        <task name="5" question="Date of the first Python publication?">
+            <answer text="1802 year"/>
+            <answer text="1991 year"/>
+            <answer text="100 BC"/>
+            <answer text="2003 year"/>
+            <correct_answer text="1991 year"/>
+        </task>
+    </test_difficulty>
+</tests>
+
